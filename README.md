@@ -25,7 +25,7 @@ To set up the project locally:
 1. Clone the repository.
 2. Install Python 3.8 or higher.
 3. (Optional) Set up a virtual environment.
-4. Install dependencies: `pip install flake8`
+4. Install dependencies: `pip install -r requirements.txt`
 
 ## Running the Application
 Run the application using the command: `python app.py`
