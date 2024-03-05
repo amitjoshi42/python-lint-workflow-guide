@@ -1,4 +1,22 @@
-
 [flake8]
-max-line-length = 79
-exclude = .git,__pycache__,docs,old,build,dist
+# Set the maximum line length to 88 characters (PEP 8 recommendation)
+max-line-length = 88
+
+# Exclude directories or files from linting
+exclude =
+    .git,
+    __pycache__,
+    venv,
+    docs,
+    old,
+    build,
+    dist
+
+# Ignore some specific linting errors
+# Visit the below link for complete list of Error codes
+# https://github.com/pycqa/flake8/blob/main/docs/source/user/error-codes.rst
+ignore =
+    # E203: whitespace before ':'
+    E203,
+    # W503: line break before binary operator
+    W503
